@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width">
+    <script src="carousel.js"></script>
+</head>
+
+<body>
+    <div id="filters" class="left">
+        <button id="btnPrev">Previous</button>
+    </div>
+    <div id="filters" class="right">
+        <button id="btnNext">Next</button>
+    </div>
+
+    <div id="container">
+        <div class="tile">
+            <span>title 0</span>
+        </div>
+        <div class="tile">
+            <span>title 1</span>
+        </div>
+        <div class="tile">
+            <span>title 2</span>
+        </div>
+        <div class="tile">
+            <span>title 3</span>
+        </div>
+        <div class="tile">
+            <span>title 4</span>
+        </div>
+        <div class="tile">
+            <span>title 5</span>
+        </div>
+        <div class="tile">
+            <span>title 6</span>
+        </div>
+        <div class="tile">
+            <span>title 7</span>
+        </div>
+        <div class="tile">
+            <span>title 8</span>
+        </div>
+        <div class="tile">
+            <span>title 9</span>
+        </div>
+    </div>
+
+    <script>
+        var coverflow = new Coverflow("container");
+        coverflow.start();
+    </script>
+</body>
+
+</html>
